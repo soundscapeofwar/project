@@ -17,7 +17,6 @@ div.essential_audio {
 	z-index: 0;
 	width: 100%;
 	margin: 105px 0px 110px 0px;
-  box-shadow: 0px 0px 100px 5px #FFF;
 }
 
 
@@ -27,7 +26,8 @@ div.essential_audio > div:nth-child(1) div {
 	height: 28px;
 	margin-top: -13px;
 	border-radius: 14px;
-	background-color: #ccc;
+	background-color: #000;
+	border-color: #fff;
 }
 div.essential_audio > div:nth-child(1) div:after {
 	position: absolute;
