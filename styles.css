@@ -58,7 +58,7 @@ small, .text_small {font-size: 0.75rem;}
 
 .nav li a:hover {
   background-color: transparent;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 
