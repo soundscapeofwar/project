@@ -63,6 +63,12 @@ small, .text_small {font-size: 0.75rem;}
 
 
 .content {
+  max-width: 600px;
+  margin: auto;
+  background: #121212 ;
+  padding: 10px;
+}
+.content-resources {
   max-width: 800px;
   margin: auto;
   background: #121212 ;
