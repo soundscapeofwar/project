@@ -74,6 +74,22 @@ article {
   padding: 10px;
 }
 
+img {
+	display: block;
+	width: 100%;
+}
+
+h2 {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+@media (min-width: 50em) {
+	h2 {
+		font-size: 1.8rem;
+	}
+}
+
 .cta {
   display: flex;
   flex-wrap: wrap;
