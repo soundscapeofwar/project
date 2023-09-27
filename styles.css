@@ -102,10 +102,6 @@ img {
 	flex: 1 0 50%;
 }
 
-.cta__text-column > * + * {
-	margin: min(1.5rem, 2.5vw) 0 0 0;
-}
-
 .cta a {
 	display: inline-block;
 	color: black;
