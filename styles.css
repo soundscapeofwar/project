@@ -62,11 +62,6 @@ small, .text_small {font-size: 0.75rem;}
 }
 
 
-article {
-  max-width: 65ch;
-  margin-inline: auto;
-}
-
 .content {
   max-width: 600px;
   margin: auto;
