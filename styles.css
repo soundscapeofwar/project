@@ -89,6 +89,8 @@ img {
   max-width: 50rem;
   width: 100%;
   overflow: hidden;
+	padding: 40px;
+  border-bottom: 2px solid #ccc;
 }
 
 .cta img {
