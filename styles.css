@@ -19,6 +19,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
+	height: 300px; 
 }
 
 .flex-item-left {
