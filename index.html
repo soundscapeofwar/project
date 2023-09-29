@@ -12,14 +12,18 @@
                 <link rel="stylesheet" href="dots.css">
         <link rel="stylesheet" href="player/essential_audio2.css"></link>
 <script src="player/essential_audio.js"></script>
-        <script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
 <script>
 $(function(){
-$('#musicHolder').hover(
-    function() {    $("audio")[0].play();},
-    function() {    $("audio")[0].pause();}
-    )
-});
+        $('.hint span').hover(
+            function() { 
+                $(this).prev()[0].play()
+            },
+            function() { 
+                $(this).prev()[0].pause()
+            }
+        )
+    })
 </script>
     </head>
 
@@ -37,7 +41,6 @@ $('#musicHolder').hover(
         <h1>The Landscape of War: <br>Sounds and Trauma in Ukraine</h1>
 
         <div class="square-1">
-            <div id="musicHolder">
                 <div class="item-hints">
                     <div class="hint" data-position="4">
     <!-- is-hint -->
@@ -52,8 +55,8 @@ $('#musicHolder').hover(
   Your browser does not support this audio format.
 </audio>
             </div>
-            </div>
-<div class="square-3"><div id="musicHolder">
+
+<div class="square-3">
 <div class="item-hints">
   <div class="hint" data-position="4">
     <!-- is-hint -->
@@ -69,7 +72,6 @@ $('#musicHolder').hover(
   Your browser does not support this audio format.
 </audio>
 </div>
-  </div>
   
         <script src="scripts.js"></script>
         
