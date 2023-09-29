@@ -22,14 +22,18 @@ body {
 }
 
 .flex-item-left {
-  background-color: #f1f1f1;
   padding: 10px;
   flex: 50%;
 }
 
+.flex-item-center {
+  padding: 10px;
+  flex: 25%;
+}
+
 .flex-item-right {
   padding: 10px;
-  flex: 50%;
+  flex: 25%;
 }
 
 p {margin-bottom: 1rem;}
