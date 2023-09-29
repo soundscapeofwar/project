@@ -42,21 +42,6 @@
   justify-content: center;
   align-items: center;
 }
-.item-hints .hint::before {
-  /* //rotated squre */
-  background-color: #fff;
-  width: 8px;
-  height: 8px;
-  z-index: 2;
-  -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
 .item-hints .hint::after {
   /* //green glow */
