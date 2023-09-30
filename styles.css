@@ -115,7 +115,11 @@ header {
   align-items: center;
   padding: 20px 50px;
 }
-
+header a {
+  text-decoration: none;
+  color: #ccc;
+  transition: all 0.3s ease 0s;
+}
 header a:hover {
   color: red;
 }
