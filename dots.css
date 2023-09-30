@@ -64,7 +64,7 @@
 }
 .item-hints .hint-dot {
   z-index: 3;
-  border: 1px solid #fff;
+  border: 1px solid #ccc;
   border-radius: 50%;
   width: 36px;
   height: 36px;
@@ -154,7 +154,7 @@
   text-align: left;
 }
 .item-hints .hint:hover .hint-content {
-  color: #fff;
+  color: #ccc;
   width: 300px;
   position: absolute;
   z-index: 5;
@@ -164,7 +164,7 @@
   -webkit-transition: opacity 0.7s ease, visibility 0.7s ease;
   transition: opacity 0.7s ease, visibility 0.7s ease;
   pointer-events: none;
-  color: #fff;
+  color: #ccc;
   visibility: hidden;
   pointer-events: none;
 }
@@ -173,7 +173,7 @@
   bottom: 0;
   left: 0;
   content: "";
-  background-color: #fff;
+  background-color: #ccc;
   height: 1px;
   position: absolute;
   transition: width 0.4s;
@@ -191,7 +191,7 @@
   left: 0;
   width: 20px;
   content: "";
-  background-color: #fff;
+  background-color: #ccc;
   height: 1px;
   position: absolute;
   opacity: 1;
