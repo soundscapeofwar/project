@@ -2,7 +2,7 @@
 .item-hints {
   height: 36px;
   width: 36px;
-  margin: 20px auto;
+  margin: 250px auto;
 }
 .item-hints .hint {
   width: 36px;
@@ -66,8 +66,8 @@
   z-index: 3;
   border: 1px solid #fff;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 36px;
+  height: 36px;
   display: block;
   -webkit-transform: translate(-0%, -0%) scale(0.95);
   transform: translate(-0%, -0%) scale(0.95);
