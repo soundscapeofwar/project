@@ -19,23 +19,21 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
-	height: 300px; 
+	height: 100px; 
 }
 
 .flex-item-left {
-  padding: 10px;
-  flex: 50%;
-	  text-align: left;
-}
-
-.flex-item-center {
-  padding: 10px;
   flex: 25%;
 	  text-align: left;
 }
 
+.flex-item-center {
+
+  flex: 50%;
+	  text-align: left;
+}
+
 .flex-item-right {
-  padding: 10px;
   flex: 25%;
 	  text-align: left;
 }
