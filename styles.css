@@ -78,32 +78,6 @@ h5 {font-size: 1.333rem;}
 
 small, .text_small {font-size: 0.75rem;}
 
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: transparent;
-}
-
-.nav li {
-  float: right;
-}
-
-.nav li a {
-  display: block;
-  color: #ccc;
-  font-size: 20px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.nav li a:hover {
-  background-color: transparent;
-  color: red;
-}
-
 header {
   display: flex;
   justify-content: flex-end;
