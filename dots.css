@@ -1,9 +1,9 @@
 
 
 .item-hints {
-  height: 500px;
-  width: 500px;
-  margin: 250px auto;
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
 }
 .item-hints .hint {
   width: 60px;
