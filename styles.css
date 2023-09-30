@@ -147,7 +147,7 @@ img {
 
 .cta a {
 	display: inline-block;
-	color: black;
+	color: #ccc;
 	padding: 0.5rem 1rem;
 	text-decoration: none;
 	font-weight: 700;
@@ -169,13 +169,4 @@ img {
   border: 2px solid #121212;
   color:#121212;
  background-color: #ccc;
-}
-
-.extlink{
-  color:#ccc;
-  font-size:20px;
-  padding: 8px 18px;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
 }
