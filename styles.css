@@ -123,6 +123,13 @@ header li a {
 header li a:hover {
   color: red;
 }
+.language{
+  margin-right: auto;
+}
+
+.active{
+  background-color: #444;
+}
 .content {
   max-width: 650px;
   margin: auto;
