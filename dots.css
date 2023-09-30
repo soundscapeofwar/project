@@ -153,6 +153,11 @@
   pointer-events: none;
   text-align: left;
 }
+
+.item-hints .hint-content p {
+  margin-bottom: 0;
+}
+
 .item-hints .hint:hover .hint-content {
   color: #ccc;
   width: 300px;
