@@ -115,6 +115,10 @@ header {
   align-items: center;
   padding: 20px 50px;
 }
+
+header a:hover {
+  color: red;
+}
 .content {
   max-width: 650px;
   margin: auto;
