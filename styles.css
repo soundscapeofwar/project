@@ -13,7 +13,8 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .flex-container {
@@ -117,6 +118,7 @@ header li {
 }
 header li a {
   text-decoration: none;
+  font-size: 20px;
   color: #ccc;
   transition: all 0.3s ease 0s;
 }
@@ -126,7 +128,6 @@ header li a:hover {
 .language{
   margin-right: auto;
 }
-
 .active{
   background-color: #444;
 }
