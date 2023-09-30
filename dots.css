@@ -1,8 +1,12 @@
 
-
 .item-hints {
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
 }
 .item-hints .hint {
+  width: 60px;
+  height: 60px;
   position: relative;
   display: flex;
   justify-content: center;
