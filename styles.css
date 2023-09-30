@@ -25,16 +25,19 @@ body {
 .flex-item-left {
   padding: 10px;
   flex: 50%;
+	  text-align: left;
 }
 
 .flex-item-center {
   padding: 10px;
   flex: 25%;
+	  text-align: left;
 }
 
 .flex-item-right {
   padding: 10px;
   flex: 25%;
+	  text-align: left;
 }
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
