@@ -83,7 +83,7 @@ a {
  
 }
 a:hover {
-  color: red;
+text-decoration:none;
 }
 
 nav ul {
