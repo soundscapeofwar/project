@@ -78,6 +78,14 @@ h5 {font-size: 1.333rem;}
 
 small, .text_small {font-size: 0.75rem;}
 
+a {
+  color: #ccc;
+ 
+}
+a:hover {
+  color: red;
+}
+
 nav ul {
   display: flex;
   justify-content: flex-end;
